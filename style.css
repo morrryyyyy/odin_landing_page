@@ -9,7 +9,8 @@ body {
   padding: 0 100px;
 }
 
-.hero {
+.hero,
+.footer {
   background-color: #1f2937;
 }
 ul {
@@ -64,6 +65,7 @@ img {
   height: 150px;
   width: 150px;
   border-radius: 10px;
+  border: 3px solid #3882f6;
 }
 .topic {
   margin-bottom: 32px;
@@ -105,7 +107,7 @@ img {
   display: flex;
   justify-content: space-between;
   margin: 50px;
-  padding: 30px;
+  padding: 50px;
   border-radius: 10px;
   flex: auto;
   color: white;
@@ -116,4 +118,11 @@ img {
 }
 .sign-up {
   border: 3px solid white;
+}
+.footer {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  padding: 30px;
+  margin: 0;
 }
